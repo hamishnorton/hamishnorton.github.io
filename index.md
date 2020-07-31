@@ -2,7 +2,7 @@
 
 Just tinkering (figuring this out).
 
-The plan is to the resources I find and use.
+The plan is share the useful resources I find and use.
 
 ## Tools
 
