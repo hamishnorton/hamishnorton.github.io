@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ProZine</title>
+    <link>http://hamishnorton.github.io/projects/prozine/</link>
+    <description>Recent content on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 20:25:02 +1200</lastBuildDate>
+    
+	<atom:link href="http://hamishnorton.github.io/projects/prozine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ProZine</title>
+      <link>http://hamishnorton.github.io/stash/prozine/</link>
+      <pubDate>Fri, 21 Aug 2020 20:25:02 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/prozine/</guid>
+      <description>This site ProZine is not just a web version take on a Zine, in that it&amp;rsquo;s about Mastery, Purpose, Fulfilment and Productivity. It&amp;rsquo;s also about sharing a bit of my story and challenges in the hope that helps other to lead a better life.</description>
+    </item>
+    
+  </channel>
+</rss>

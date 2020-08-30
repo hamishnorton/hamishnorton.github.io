@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PowerShell on ProZine</title>
+    <link>http://hamishnorton.github.io/technologies/powershell/</link>
+    <description>Recent content in PowerShell on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Thu, 06 Aug 2020 19:02:53 +1200</lastBuildDate>
+    
+	<atom:link href="http://hamishnorton.github.io/technologies/powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rename Files</title>
+      <link>http://hamishnorton.github.io/stash/rename-files/</link>
+      <pubDate>Thu, 06 Aug 2020 19:02:53 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/rename-files/</guid>
+      <description>A PowerShell snippet for renaming files.
+Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &amp;#39;.md&amp;#39;, &amp;#39;.yaml&amp;#39;} Get-childItem 2020*.yaml </description>
+    </item>
+    
+  </channel>
+</rss>

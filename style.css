@@ -1,0 +1,95 @@
+body {
+	color: #606c76;
+	margin: 0;
+	padding: 0;
+}
+section
+{
+	margin: 0;
+    padding: 0;
+    border-style: solid;
+	border-width: thin;
+	border-color: black;
+}
+header
+{
+	margin: 0;
+	padding: .3rem .9rem;	
+}
+article
+{
+    padding: .6rem .9rem;	
+    /* border-style: solid;
+	border-width: thin;
+	border-color: gray; */
+}
+footer
+{	
+	padding: .6rem .9rem;	
+	/* border-style: solid;
+	border-width: thin;
+	border-color: #9b4dca; */
+	background-color: #f4f5f6;
+	color: #606c76;
+    text-align:center;	
+}
+
+
+/* nav
+{	
+	border-style: solid;
+	border-width: thin;
+	border-color: #9b4dca;
+	background-color: #f4f5f6;
+	color: #606c76;
+} */
+
+h1{
+	color: #9b4dca;
+}
+.site-header {
+	background-color: #f4f5f6;
+}
+
+.site-header h1
+{
+	
+}
+
+.content-header h1
+{
+	margin: 0;
+	line-height: 1;	
+}
+
+.content-data
+{
+	margin: 0;
+	padding: 0.3rem;
+	font-size: 80%;
+	font-weight: 700;
+	background-color: #f4f5f6;
+}
+
+.taxonomies-and-terms ul li{
+	display: inline;
+	list-style: unset;
+}
+
+.draft{
+	color: red;
+}
+.badge
+{
+	padding: .25em .4em;
+	font-weight: 700;
+	font-size: 80%;
+	color: white;	
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: black;
+	border-radius: .3rem;
+}
+
+
+

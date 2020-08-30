@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on ProZine</title>
+    <link>http://hamishnorton.github.io/</link>
+    <description>Recent content in Welcome on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Mon, 27 Jul 2020 19:25:36 +1200</lastBuildDate>
+    
+	<atom:link href="http://hamishnorton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ProZine</title>
+      <link>http://hamishnorton.github.io/stash/prozine/</link>
+      <pubDate>Fri, 21 Aug 2020 20:25:02 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/prozine/</guid>
+      <description>This site ProZine is not just a web version take on a Zine, in that it&amp;rsquo;s about Mastery, Purpose, Fulfilment and Productivity. It&amp;rsquo;s also about sharing a bit of my story and challenges in the hope that helps other to lead a better life.</description>
+    </item>
+    
+    <item>
+      <title>Craftsmanship</title>
+      <link>http://hamishnorton.github.io/stash/craftsmanship/</link>
+      <pubDate>Wed, 19 Aug 2020 20:38:34 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/craftsmanship/</guid>
+      <description>I didn&amp;rsquo;t really give my craft the focus it deserved until I discovered my purpose. One&amp;rsquo;s purpose tends to evolve with time.
+ purpose: Make It Easier For Others
+craft: Software Solution Development
+ Once I&amp;rsquo;d started really applying myself to my craft I noticed that a lot of what I had been percieving situation problems fell away.</description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://hamishnorton.github.io/stash/productivity/</link>
+      <pubDate>Wed, 19 Aug 2020 08:20:51 +0000</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/productivity/</guid>
+      <description>I&amp;rsquo;ve included Productivity as an aspect. It encompasses all the things that &amp;ldquo;Make it easyier for later&amp;rdquo;. The next time you have to do that thing it&amp;rsquo;ll be easier as you&amp;rsquo;ve make an effort now to setup a few things to reduce the effort and overhead of having to do it all again.</description>
+    </item>
+    
+    <item>
+      <title>Yaml</title>
+      <link>http://hamishnorton.github.io/stash/yaml/</link>
+      <pubDate>Sun, 16 Aug 2020 20:11:30 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/yaml/</guid>
+      <description>Yaml is probably the briefest common structured text data representation. And thus it&amp;rsquo;s often a go to for configuration, build and other pipeline files. It&amp;rsquo;s basically made up of lists of key:value pairs.
+orderitems: - code: 001 descritpion: ESP8266 feather board quantity: 1 - code: 002 descritpion: Transistors 200 piece pack quantity: 1 - code: 003 description: Red, Grean, Yellow and Blue LEDs 20 piece pack - code: 004 description: breadboard with sticky back - code: 005 descrtion: Jumper Wires, male to male, 100mm 50 picec pack Use Case: Application Configuration I discovered while developing the FileArchiver that I didn&amp;rsquo;t really know how to use ConfigurationManager in .</description>
+    </item>
+    
+    <item>
+      <title>Rename Files</title>
+      <link>http://hamishnorton.github.io/stash/rename-files/</link>
+      <pubDate>Thu, 06 Aug 2020 19:02:53 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/rename-files/</guid>
+      <description>A PowerShell snippet for renaming files.
+Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &amp;#39;.md&amp;#39;, &amp;#39;.yaml&amp;#39;} Get-childItem 2020*.yaml </description>
+    </item>
+    
+    <item>
+      <title>Note-Taking</title>
+      <link>http://hamishnorton.github.io/stash/note-taking/</link>
+      <pubDate>Fri, 31 Jul 2020 08:17:07 +1200</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/note-taking/</guid>
+      <description>Note-taking, it&amp;rsquo;s an important part of your personal informatino system, allowing you to either come back to useful information and or develop your thoughts on something over time.
+I&amp;rsquo;ve been using EverNote pretty happierly for quite a while now.</description>
+    </item>
+    
+  </channel>
+</rss>

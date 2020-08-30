@@ -1,0 +1,127 @@
+/* Element Defaults */
+header
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* article
+{
+	/* padding-left: 0.9rem;
+	padding-right: 0.9rem; */
+} */
+
+body{
+	line-height: 1.6;
+}
+
+h2 
+{
+	font-size: 1.6rem;
+}
+/* The Page */
+.page-header 
+{
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+
+}
+.page-header h1
+{	
+	font-weight: 400;
+	margin-bottom: 0;
+	color: #333;
+}
+
+.document
+{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.page-footer
+{
+	background-color: #eee;
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+	padding-bottom: .1rem;
+	text-align: left;
+}
+
+/* Main */
+main section
+{
+	padding-bottom: 1rem;
+}
+main > section > header
+{
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+}
+main > section > article
+{
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+}
+
+main .content-header
+{	
+	justify-content: center;
+	background-color: #eee;
+	box-sizing: border-box;
+}
+
+main .content-header h1
+{
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+main .content-meta
+{
+	color: black;
+	font-size: .9rem;
+	padding-bottom: .6rem;
+}
+
+.content article h2
+{
+	margin-top: 3.6rem;
+	padding-top: 3.2rem;
+	border-top: 3px solid #3d7e9a;
+}
+
+.taxonomies-and-terms article 
+{
+	text-align: center;
+}
+
+.taxonomies-and-terms article h2
+{
+	text-align: center;
+}
+
+.taxonomies-and-terms article ul
+{
+	padding: 0;
+}
+.taxonomies-and-terms article ul li
+{
+	display: inline;
+	list-style: unset;
+}
+.horizontal-list li
+{
+	display: inline;
+	list-style: unset;
+}
+.terms article 
+{
+	text-align: center;
+}
+
+.summary header h2
+{
+	padding-top: 1rem;
+}
+

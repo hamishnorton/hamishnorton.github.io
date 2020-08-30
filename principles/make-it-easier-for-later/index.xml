@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Make It Easier For Later on ProZine</title>
+    <link>http://hamishnorton.github.io/principles/make-it-easier-for-later/</link>
+    <description>Recent content in Make It Easier For Later on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Wed, 19 Aug 2020 08:20:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://hamishnorton.github.io/principles/make-it-easier-for-later/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://hamishnorton.github.io/stash/productivity/</link>
+      <pubDate>Wed, 19 Aug 2020 08:20:51 +0000</pubDate>
+      
+      <guid>http://hamishnorton.github.io/stash/productivity/</guid>
+      <description>I&amp;rsquo;ve included Productivity as an aspect. It encompasses all the things that &amp;ldquo;Make it easyier for later&amp;rdquo;. The next time you have to do that thing it&amp;rsquo;ll be easier as you&amp;rsquo;ve make an effort now to setup a few things to reduce the effort and overhead of having to do it all again.</description>
+    </item>
+    
+  </channel>
+</rss>
