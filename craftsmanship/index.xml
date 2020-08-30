@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Craftsmanship on ProZine</title>
-    <link>http://hamishnorton.github.io/craftsmanship/</link>
+    <link>https://hamishnorton.github.io/craftsmanship/</link>
     <description>Recent content in Craftsmanship on ProZine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
     <lastBuildDate>Wed, 19 Aug 2020 20:38:34 +1200</lastBuildDate>
     
-	<atom:link href="http://hamishnorton.github.io/craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hamishnorton.github.io/craftsmanship/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Purpose</title>
-      <link>http://hamishnorton.github.io/craftsmanship/purpose/</link>
+      <link>https://hamishnorton.github.io/craftsmanship/purpose/</link>
       <pubDate>Wed, 19 Aug 2020 20:38:34 +1200</pubDate>
       
-      <guid>http://hamishnorton.github.io/craftsmanship/purpose/</guid>
+      <guid>https://hamishnorton.github.io/craftsmanship/purpose/</guid>
       <description></description>
     </item>
     

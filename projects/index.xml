@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on ProZine</title>
-    <link>http://hamishnorton.github.io/projects/</link>
+    <link>https://hamishnorton.github.io/projects/</link>
     <description>Recent content in Projects on ProZine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
     <lastBuildDate>Fri, 21 Aug 2020 20:25:02 +1200</lastBuildDate>
     
-	<atom:link href="http://hamishnorton.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hamishnorton.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ProZine</title>
-      <link>http://hamishnorton.github.io/projects/prozine/</link>
+      <link>https://hamishnorton.github.io/projects/prozine/</link>
       <pubDate>Fri, 21 Aug 2020 20:25:02 +1200</pubDate>
       
-      <guid>http://hamishnorton.github.io/projects/prozine/</guid>
+      <guid>https://hamishnorton.github.io/projects/prozine/</guid>
       <description></description>
     </item>
     

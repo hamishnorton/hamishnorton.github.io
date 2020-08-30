@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on ProZine</title>
-    <link>http://hamishnorton.github.io/productivity/</link>
+    <link>https://hamishnorton.github.io/productivity/</link>
     <description>Recent content in Productivity on ProZine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
     <lastBuildDate>Fri, 31 Jul 2020 08:17:07 +1200</lastBuildDate>
     
-	<atom:link href="http://hamishnorton.github.io/productivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hamishnorton.github.io/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal Information System</title>
-      <link>http://hamishnorton.github.io/productivity/personal-information-system/</link>
+      <link>https://hamishnorton.github.io/productivity/personal-information-system/</link>
       <pubDate>Fri, 31 Jul 2020 08:17:07 +1200</pubDate>
       
-      <guid>http://hamishnorton.github.io/productivity/personal-information-system/</guid>
+      <guid>https://hamishnorton.github.io/productivity/personal-information-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal Operating System</title>
-      <link>http://hamishnorton.github.io/productivity/personal-operating-system/</link>
+      <link>https://hamishnorton.github.io/productivity/personal-operating-system/</link>
       <pubDate>Fri, 31 Jul 2020 08:17:07 +1200</pubDate>
       
-      <guid>http://hamishnorton.github.io/productivity/personal-operating-system/</guid>
+      <guid>https://hamishnorton.github.io/productivity/personal-operating-system/</guid>
       <description></description>
     </item>
     

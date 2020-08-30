@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal Information System on ProZine</title>
-    <link>http://hamishnorton.github.io/productivity/personal-information-system/</link>
+    <link>https://hamishnorton.github.io/productivity/personal-information-system/</link>
     <description>Recent content in Personal Information System on ProZine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
     <lastBuildDate>Fri, 31 Jul 2020 08:17:07 +1200</lastBuildDate>
     
-	<atom:link href="http://hamishnorton.github.io/productivity/personal-information-system/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hamishnorton.github.io/productivity/personal-information-system/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Note-Taking</title>
-      <link>http://hamishnorton.github.io/stash/note-taking/</link>
+      <link>https://hamishnorton.github.io/stash/note-taking/</link>
       <pubDate>Fri, 31 Jul 2020 08:17:07 +1200</pubDate>
       
-      <guid>http://hamishnorton.github.io/stash/note-taking/</guid>
+      <guid>https://hamishnorton.github.io/stash/note-taking/</guid>
       <description>Note-taking, it&amp;rsquo;s an important part of your personal informatino system, allowing you to either come back to useful information and or develop your thoughts on something over time.
 I&amp;rsquo;ve been using EverNote pretty happierly for quite a while now.</description>
     </item>
