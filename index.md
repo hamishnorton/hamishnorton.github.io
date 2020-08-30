@@ -15,3 +15,5 @@ The plan is to the resources I find and use.
 ## Key Resources
 
 * [Coding Blocks](https://www.codingblocks.net)
+* [MarkDown](https://daringfireball.net/projects/markdown/)
+* [MarkDown Guide](https://www.markdownguide.org/)
