@@ -45,44 +45,89 @@
 	</header>
 	<article>
 		<p><a href="https://en.wikipedia.org/wiki/YAML">Yaml</a> is probably the briefest common structured text data representation.  And thus it&rsquo;s often a go to for configuration, build and other pipeline files.  It&rsquo;s basically made up of lists of <code>key:value</code> pairs.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">orderitems</span>:
-  - <span style="color:#66d9ef">code</span>: <span style="color:#ae81ff">001</span>
-	<span style="color:#66d9ef">descritpion</span>: ESP8266 feather board
-	<span style="color:#66d9ef">quantity</span>: <span style="color:#ae81ff">1</span>
-  - <span style="color:#66d9ef">code</span>: <span style="color:#ae81ff">002</span>
-	<span style="color:#66d9ef">descritpion</span>: Transistors <span style="color:#ae81ff">200</span> piece pack
-	<span style="color:#66d9ef">quantity</span>: <span style="color:#ae81ff">1</span>
-  - <span style="color:#66d9ef">code</span>: <span style="color:#ae81ff">003</span>
-    <span style="color:#66d9ef">description</span>: Red, Grean, Yellow and Blue LEDs <span style="color:#ae81ff">20</span> piece pack
-  - <span style="color:#66d9ef">code</span>: <span style="color:#ae81ff">004</span>
-    <span style="color:#66d9ef">description</span>: breadboard with sticky back
-  - <span style="color:#66d9ef">code</span>: <span style="color:#ae81ff">005</span>
-    <span style="color:#66d9ef">descrtion</span>: Jumper Wires, male to male, 100mm <span style="color:#ae81ff">50</span> picec pack
-</code></pre></div><h2 id="use-case-application-configuration">Use Case: Application Configuration</h2>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">orderitems</span>:
+  - <span style="color:#ff79c6">code</span>: <span style="color:#bd93f9">001</span>
+	<span style="color:#ff79c6">descritpion</span>: ESP8266 feather board
+	<span style="color:#ff79c6">quantity</span>: <span style="color:#bd93f9">1</span>
+  - <span style="color:#ff79c6">code</span>: <span style="color:#bd93f9">002</span>
+	<span style="color:#ff79c6">descritpion</span>: Transistors <span style="color:#bd93f9">200</span> piece pack
+	<span style="color:#ff79c6">quantity</span>: <span style="color:#bd93f9">1</span>
+  - <span style="color:#ff79c6">code</span>: <span style="color:#bd93f9">003</span>
+    <span style="color:#ff79c6">description</span>: Red, Grean, Yellow and Blue LEDs <span style="color:#bd93f9">20</span> piece pack
+  - <span style="color:#ff79c6">code</span>: <span style="color:#bd93f9">004</span>
+    <span style="color:#ff79c6">description</span>: breadboard with sticky back
+  - <span style="color:#ff79c6">code</span>: <span style="color:#bd93f9">005</span>
+    <span style="color:#ff79c6">descrtion</span>: Jumper Wires, male to male, 100mm <span style="color:#bd93f9">50</span> picec pack
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="use-case-application-configuration">Use Case: Application Configuration</h2>
 <p>I discovered while developing the FileArchiver that I didn&rsquo;t really know how to use <a href="https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager">ConfigurationManager</a> in <a href="https://docs.microsoft.com/en-us/dotnet/">.NET</a>, so I started to look through the classes and discovered it was pretty bloated and overly complicated.  It left me asking myself <em>&ldquo;If this was simple what would it look like?&quot;</em>  I have used a bit of <a href="https://yaml.org/">Yaml</a> to setup <a href="https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops">Azure DevOps</a> build pipelines before.  So the hunt for something to parse a Yaml file was on.  A few minutes later and I&rsquo;d found <a href="https://github.com/aaubry/YamlDotNet/">YamlDotNet</a>, it behaves similarly to <a href="https://www.newtonsoft.com/json">NewtonSoft&rsquo;s Json.NET</a>.  It was game on, and a bit later I had a configure file being serialised to a custom configuration object for the project.  The solution is not only eloquent, it also saved a whole lot a time given I didn&rsquo;t have to figure out the object model being used by the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.configuration">System.Configuration</a> object model.</p>
 <h2 id="use-case-personal-structured-data">Use Case: Personal Structured Data</h2>
 <p>Each day I try to make journal entry based on <a href="https://www.intelligentchange.com/products/the-five-minute-journal">The Five Minute Journal</a>, but I prefer the keyboard to a book and pen, as I&rsquo;m keen to have the ability (potential at this point) to explore the data for trends that may prompt me to reflect and then plan a changes for the better.  The concise and minamalist structure of Yaml make it great for this.  Here&rsquo;s a fabricated example of a journal entry for me.  I just keen these in an online Git repo.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Yaml" data-lang="Yaml"><span style="color:#66d9ef">Journal</span>: 
-  <span style="color:#66d9ef">Quote</span>: Well-being is realized by small steps, but is truly no small thing. ~ Zeno, Quoted in Diogenes Laertius, lives of the Eminent Philosophers, <span style="color:#ae81ff">7.1.26</span>
-  <span style="color:#66d9ef">GratefulFor</span>: 
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Yaml" data-lang="Yaml"><span style="color:#ff79c6">Journal</span>: 
+  <span style="color:#ff79c6">Quote</span>: Well-being is realized by small steps, but is truly no small thing. ~ Zeno, Quoted in Diogenes Laertius, lives of the Eminent Philosophers, <span style="color:#bd93f9">7.1.26</span>
+  <span style="color:#ff79c6">GratefulFor</span>: 
       - Having my own office and a great setup at work
       - Getting on with it, avoiding dwelling
       - Having a great family
-  <span style="color:#66d9ef">WhatWouldMakeToDayGreat</span>: 
-      <span style="color:#66d9ef">craftsmanship</span>: Progress creating a data source for the DataHub project
-      <span style="color:#66d9ef">productivity</span>: Adding the ISO8601 format to my text expander scripts
-      <span style="color:#66d9ef">self</span>: Progressing the Yaml content for my personal site
-  <span style="color:#66d9ef">DailyAffirmation</span>: 
+  <span style="color:#ff79c6">WhatWouldMakeToDayGreat</span>: 
+      <span style="color:#ff79c6">craftsmanship</span>: Progress creating a data source for the DataHub project
+      <span style="color:#ff79c6">productivity</span>: Adding the ISO8601 format to my text expander scripts
+      <span style="color:#ff79c6">self</span>: Progressing the Yaml content for my personal site
+  <span style="color:#ff79c6">DailyAffirmation</span>: 
       - As a Stoic I choose my thoughts
       - To make things happen I apply aptitude
       - To deliver as a craftsman I apply gumption and grit
       - I provide a greater good by helping people further themselves.
-  <span style="color:#66d9ef">ThreeAmazingThingsThatHappened</span>: 
+  <span style="color:#ff79c6">ThreeAmazingThingsThatHappened</span>: 
       - Great feedback on network outage communication
       - Arie and I had fun playing with the pipe and balls afterwork
       - I got a walk in at lunchtime in the sun
-  <span style="color:#66d9ef">HowCouldIHaveMadeToDayBetter</span>: Displacing some of the coffees with water
-</code></pre></div><h2 id="resources">Resources</h2>
+  <span style="color:#ff79c6">HowCouldIHaveMadeToDayBetter</span>: Displacing some of the coffees with water
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://yaml.org/">Official site</a></li>
 <li><a href="https://yaml.org/refcard.html">Official Reference Card</a></li>

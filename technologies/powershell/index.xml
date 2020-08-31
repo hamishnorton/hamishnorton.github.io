@@ -19,7 +19,7 @@
       
       <guid>https://hamishnorton.github.io/stash/rename-files/</guid>
       <description>A PowerShell snippet for renaming files.
-Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &amp;#39;.md&amp;#39;, &amp;#39;.yaml&amp;#39;} Get-childItem 2020*.yaml </description>
+1 2 3  Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &amp;#39;.md&amp;#39;, &amp;#39;.yaml&amp;#39;} Get-childItem 2020*.yaml   </description>
     </item>
     
   </channel>

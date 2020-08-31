@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		ProZine
+		: Data Analytics Infrastructure
+		</title>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<link rel="stylesheet" href="https://hamishnorton.github.io/bootstrap-4.5.2-dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="https://hamishnorton.github.io/bootstraped.css" />
+	
+</head>
+
+<body>
+	<script>0</script>
+	<div class="container">
+		<header class="page-header">
+			<h1 class="page-title">ProZine</h1>
+			<p class="lead" dir="auto">
+				Insights from a pragmatic craftsman</p>
+		</header>
+		
+		<main role="main" class="document">
+			
+<section class="content">
+	<header class="content-header">
+		<h1>Data Analytics Infrastructure</h1>
+		<div class="content-meta">
+	created: <time>Mon, 31 Aug 2020</time>;
+	
+	modified: <time>Mon, 31 Aug 2020</time>
+	; reading time: 1 mins
+	
+</div>
+	</header>
+	<article>
+		<p>For project at work I&rsquo;ve had to quickly get myself up to speed with the components required to create a organisation wide data analytics infrastructure.  The follow shows the basics of how the components fit together.</p>
+<h2 id="logical-data-analytics-components">Logical Data Analytics Components</h2>
+<div class="mermaid">
+	
+graph TD;
+  Bi([Business Intelligence])---Dm([Data Models]);
+  Dm---Lz([Landing Zone]);
+  Lz---Cbs([Critical Business Systems]);
+
+</div>
+<ul>
+<li><strong>Business Intelligence</strong> covers all tools and methods of looking at data in order to provide answers to business questions.</li>
+<li><strong>Data Models</strong> are developed for each Domain in the business to provided an amalgamated view.</li>
+<li><strong>Landing Zone</strong> is where data from the sources is saved to make it available to the data models</li>
+<li><strong>Critical Business Systems</strong> The various systems a business has</li>
+</ul>
+<h2 id="conceptual-data-analytics-structure">Conceptual Data Analytics Structure</h2>
+<p>The following shows how some of both technical and business aspects could be included.</p>
+<div class="mermaid">
+	
+graph TD;
+    Sa([Sales])-->Ss([Self Service])
+	Sa-->Ml([Machine Learning])
+	Sa-->Ai([Artificial Intelligence])
+	Fi([Finance])-->Ss
+	Fi-->Ml
+	Fi-->Ai
+	Mf([Manufacturing])-->Ss
+	Mf-->Ml
+	Mf-->Ai
+	Sc([Suply Chain])-->Ss
+	Sc-->Ml
+	Sc-->Ai
+	Dl([Data Lake])-->Sa
+	Db([Databases])-->Sa
+	Sg([Storage])-->Sa
+	Dl-->Fi
+	Db-->Fi
+	Sg-->Fi
+	Dl-->Mf
+	Db-->Mf
+	Sg-->Mf
+	Dl-->Sc
+	Db-->Sc
+	Sg-->Sc
+	Erp([ERP])-->Dl
+	Mes([MES])-->Dl
+	etc([etc])-->Dl
+    subgraph Business Intelligence
+		Ss
+		Ml
+		Ai
+	end
+	subgraph Data Models
+		Sa
+		Fi
+		Mf
+		Sc
+	end
+	subgraph Landing Zone
+		Dl
+		Db
+		Sg
+	end
+	subgraph Data Stores
+		Erp
+		Mes
+		etc
+	end
+
+</div>
+
+	</article>
+</section>
+
+		</main>
+		<footer class="page-footer">
+			
+			
+			
+			<div class="footer-content">© Hamish Norton 2020</div>
+			
+		</footer>
+	</div>
+	
+	
+	<script src="https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js"></script>
+	<script>mermaid.initialize({ startOnLoad: true });</script>
+	
+</body>
+
+</html>

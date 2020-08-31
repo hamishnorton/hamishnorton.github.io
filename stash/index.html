@@ -56,7 +56,7 @@
 </div>
 	</header>
 	Yaml is probably the briefest common structured text data representation. And thus it&rsquo;s often a go to for configuration, build and other pipeline files. It&rsquo;s basically made up of lists of key:value pairs.
-orderitems: - code: 001 descritpion: ESP8266 feather board quantity: 1 - code: 002 descritpion: Transistors 200 piece pack quantity: 1 - code: 003 description: Red, Grean, Yellow and Blue LEDs 20 piece pack - code: 004 description: breadboard with sticky back - code: 005 descrtion: Jumper Wires, male to male, 100mm 50 picec pack Use Case: Application Configuration I discovered while developing the FileArchiver that I didn&rsquo;t really know how to use ConfigurationManager in . <a class="read-more" href="/stash/yaml/">read more</a>
+1 2 3 4 5 6 7 8 9 10 11 12 13  orderitems: - code: 001 descritpion: ESP8266 feather board quantity: 1 - code: 002 descritpion: Transistors 200 piece pack quantity: 1 - code: 003 description: Red, Grean, Yellow and Blue LEDs 20 piece pack - code: 004 description: breadboard with sticky back - code: 005 descrtion: Jumper Wires, male to male, 100mm 50 picec pack   Use Case: Application Configuration I discovered while developing the FileArchiver that I didn&rsquo;t really know how to use ConfigurationManager in . <a class="read-more" href="/stash/yaml/">read more</a>
 </article>
 	
 	<article class="summary">
@@ -76,20 +76,6 @@ I&rsquo;ve been using EverNote pretty happierly for quite a while now. <a class=
 	
 	<article class="summary">
 	<header class="summary-header">
-		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/productivity/">Productivity</a></h2>
-		<div class="content-meta">
-	created: <time>Wed, 19 Aug 2020</time>;
-	
-	modified: <time>Wed, 19 Aug 2020</time>
-	; reading time: 1 mins
-	
-</div>
-	</header>
-	I&rsquo;ve included Productivity as an aspect. It encompasses all the things that &ldquo;Make it easyier for later&rdquo;. The next time you have to do that thing it&rsquo;ll be easier as you&rsquo;ve make an effort now to setup a few things to reduce the effort and overhead of having to do it all again. <a class="read-more" href="/stash/productivity/">read more</a>
-</article>
-	
-	<article class="summary">
-	<header class="summary-header">
 		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/rename-files/">Rename Files</a></h2>
 		<div class="content-meta">
 	created: <time>Thu, 6 Aug 2020</time>;
@@ -100,24 +86,7 @@ I&rsquo;ve been using EverNote pretty happierly for quite a while now. <a class=
 </div>
 	</header>
 	A PowerShell snippet for renaming files.
-Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &#39;.md&#39;, &#39;.yaml&#39;} Get-childItem 2020*.yaml  <a class="read-more" href="/stash/rename-files/">read more</a>
-</article>
-	
-	<article class="summary">
-	<header class="summary-header">
-		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/craftsmanship/">Craftsmanship</a></h2>
-		<div class="content-meta">
-	created: <time>Wed, 19 Aug 2020</time>;
-	
-	modified: <time>Tue, 25 Aug 2020</time>
-	; reading time: 1 mins
-	
-</div>
-	</header>
-	I didn&rsquo;t really give my craft the focus it deserved until I discovered my purpose. One&rsquo;s purpose tends to evolve with time.
- purpose: Make It Easier For Others
-craft: Software Solution Development
- Once I&rsquo;d started really applying myself to my craft I noticed that a lot of what I had been percieving situation problems fell away. <a class="read-more" href="/stash/craftsmanship/">read more</a>
+1 2 3  Get-childItem 2020*.md Get-childItem 2020*.md | Rename-Item -NewName { $_.Name -replace &#39;.md&#39;, &#39;.yaml&#39;} Get-childItem 2020*.yaml    <a class="read-more" href="/stash/rename-files/">read more</a>
 </article>
 	
 	<article class="summary">
@@ -132,6 +101,51 @@ craft: Software Solution Development
 </div>
 	</header>
 	This site ProZine is not just a web version take on a Zine, in that it&rsquo;s about Mastery, Purpose, Fulfilment and Productivity. It&rsquo;s also about sharing a bit of my story and challenges in the hope that helps other to lead a better life. <a class="read-more" href="/stash/prozine/">read more</a>
+</article>
+	
+	<article class="summary">
+	<header class="summary-header">
+		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/data-analytics/">Data Analytics Infrastructure</a></h2>
+		<div class="content-meta">
+	created: <time>Mon, 31 Aug 2020</time>;
+	
+	modified: <time>Mon, 31 Aug 2020</time>
+	; reading time: 1 mins
+	
+</div>
+	</header>
+	For project at work I&rsquo;ve had to quickly get myself up to speed with the components required to create a organisation wide data analytics infrastructure. The follow shows the basics of how the components fit together. <a class="read-more" href="/stash/data-analytics/">read more</a>
+</article>
+	
+	<article class="summary">
+	<header class="summary-header">
+		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/craftsmanship/">Craftsmanship</a></h2>
+		<div class="content-meta">
+	created: <time>Wed, 19 Aug 2020</time>;
+	
+	modified: <time>Mon, 31 Aug 2020</time>
+	; reading time: 1 mins
+	
+</div>
+	</header>
+	I didn&rsquo;t really give my craft the focus it deserved, until I discovered my purpose. Your purpose tends to evolve with time.
+ my purpose: Make It Easier For Others
+my craft: Software Solution Development
+ Once I started really applying myself to my craft I noticed that a lot of what I had percievedd problems fell away. <a class="read-more" href="/stash/craftsmanship/">read more</a>
+</article>
+	
+	<article class="summary">
+	<header class="summary-header">
+		<h2 class="summary-title"><a href="https://hamishnorton.github.io/stash/productivity/">Productivity</a></h2>
+		<div class="content-meta">
+	created: <time>Wed, 19 Aug 2020</time>;
+	
+	modified: <time>Mon, 31 Aug 2020</time>
+	; reading time: 1 mins
+	
+</div>
+	</header>
+	I&rsquo;ve included Productivity as an aspect. It encompasses all the things that &ldquo;Make it easyier for later&rdquo;. The next time you have to do that thing it&rsquo;ll be easier as you&rsquo;ve make the effort now to setup it to reduce the effort/overhead of having to do it all again. <a class="read-more" href="/stash/productivity/">read more</a>
 </article>
 	
 </section>

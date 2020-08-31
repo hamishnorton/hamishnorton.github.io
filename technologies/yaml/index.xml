@@ -19,7 +19,7 @@
       
       <guid>https://hamishnorton.github.io/stash/yaml/</guid>
       <description>Yaml is probably the briefest common structured text data representation. And thus it&amp;rsquo;s often a go to for configuration, build and other pipeline files. It&amp;rsquo;s basically made up of lists of key:value pairs.
-orderitems: - code: 001 descritpion: ESP8266 feather board quantity: 1 - code: 002 descritpion: Transistors 200 piece pack quantity: 1 - code: 003 description: Red, Grean, Yellow and Blue LEDs 20 piece pack - code: 004 description: breadboard with sticky back - code: 005 descrtion: Jumper Wires, male to male, 100mm 50 picec pack Use Case: Application Configuration I discovered while developing the FileArchiver that I didn&amp;rsquo;t really know how to use ConfigurationManager in .</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13  orderitems: - code: 001 descritpion: ESP8266 feather board quantity: 1 - code: 002 descritpion: Transistors 200 piece pack quantity: 1 - code: 003 description: Red, Grean, Yellow and Blue LEDs 20 piece pack - code: 004 description: breadboard with sticky back - code: 005 descrtion: Jumper Wires, male to male, 100mm 50 picec pack   Use Case: Application Configuration I discovered while developing the FileArchiver that I didn&amp;rsquo;t really know how to use ConfigurationManager in .</description>
     </item>
     
   </channel>
