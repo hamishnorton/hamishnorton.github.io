@@ -13,12 +13,21 @@
     
     
     <item>
+      <title>Great Books</title>
+      <link>https://hamishnorton.github.io/stash/great-books/</link>
+      <pubDate>Tue, 01 Sep 2020 20:00:00 +1200</pubDate>
+      
+      <guid>https://hamishnorton.github.io/stash/great-books/</guid>
+      <description>What&amp;rsquo;s the point of having countless books and libraries, whose titles could hardly be read through in a lifetime. The learner is not taught, but burdened by the sheer volume, and it&amp;rsquo;s better to plant the seeds of a few authors than to be scattered about by many.</description>
+    </item>
+    
+    <item>
       <title>Data Analytics Infrastructure</title>
       <link>https://hamishnorton.github.io/stash/data-analytics/</link>
       <pubDate>Mon, 31 Aug 2020 09:36:42 +1200</pubDate>
       
       <guid>https://hamishnorton.github.io/stash/data-analytics/</guid>
-      <description>For project at work I&amp;rsquo;ve had to quickly get myself up to speed with the components required to create a organisation wide data analytics infrastructure. The follow shows the basics of how the components fit together.</description>
+      <description>For project at work I&amp;rsquo;ve had to quickly get myself up to speed with the components required to create a organisation wide data analytics infrastructure. The follow shows the basics of how the components fit together (as I understand it to date).</description>
     </item>
     
     <item>

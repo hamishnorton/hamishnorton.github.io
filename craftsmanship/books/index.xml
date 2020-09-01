@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on ProZine</title>
+    <link>https://hamishnorton.github.io/craftsmanship/books/</link>
+    <description>Recent content in Books on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Tue, 01 Sep 2020 20:00:00 +1200</lastBuildDate>
+    
+	<atom:link href="https://hamishnorton.github.io/craftsmanship/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Great Books</title>
+      <link>https://hamishnorton.github.io/stash/great-books/</link>
+      <pubDate>Tue, 01 Sep 2020 20:00:00 +1200</pubDate>
+      
+      <guid>https://hamishnorton.github.io/stash/great-books/</guid>
+      <description>What&amp;rsquo;s the point of having countless books and libraries, whose titles could hardly be read through in a lifetime. The learner is not taught, but burdened by the sheer volume, and it&amp;rsquo;s better to plant the seeds of a few authors than to be scattered about by many.</description>
+    </item>
+    
+  </channel>
+</rss>
