@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
-    <lastBuildDate>Tue, 01 Sep 2020 20:00:00 +1200</lastBuildDate>
-    
-	<atom:link href="https://hamishnorton.github.io/craftsmanship/books/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 01 Sep 2020 20:00:00 +1200</lastBuildDate><atom:link href="https://hamishnorton.github.io/craftsmanship/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Great Books</title>
       <link>https://hamishnorton.github.io/stash/great-books/</link>
