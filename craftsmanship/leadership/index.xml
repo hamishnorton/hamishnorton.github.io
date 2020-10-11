@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on ProZine</title>
+    <link>https://hamishnorton.github.io/craftsmanship/leadership/</link>
+    <description>Recent content in Leadership on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Wed, 07 Oct 2020 10:33:37 +1300</lastBuildDate><atom:link href="https://hamishnorton.github.io/craftsmanship/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team Member Indicators</title>
+      <link>https://hamishnorton.github.io/stash/team-member-indicators/</link>
+      <pubDate>Wed, 07 Oct 2020 10:33:37 +1300</pubDate>
+      
+      <guid>https://hamishnorton.github.io/stash/team-member-indicators/</guid>
+      <description>The other day on the way to work I had an idea. Well two ideas from others and putting them together.
+Use Rating Without The 7 Use the 1 to 10 rating scale, but you are not allowed to us the number 7.</description>
+    </item>
+    
+  </channel>
+</rss>
