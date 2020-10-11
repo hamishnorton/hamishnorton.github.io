@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hamish Norton 2020</copyright>
-    <lastBuildDate>Wed, 19 Aug 2020 08:20:51 +0000</lastBuildDate><atom:link href="https://hamishnorton.github.io/principles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Oct 2020 15:20:53 +1300</lastBuildDate><atom:link href="https://hamishnorton.github.io/principles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 3 Ways</title>
+      <link>https://hamishnorton.github.io/principles/the-3-ways/</link>
+      <pubDate>Sun, 11 Oct 2020 15:20:53 +1300</pubDate>
+      
+      <guid>https://hamishnorton.github.io/principles/the-3-ways/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Make It Easier For Later</title>
       <link>https://hamishnorton.github.io/principles/make-it-easier-for-later/</link>

@@ -9,6 +9,17 @@
     <copyright>© Hamish Norton 2020</copyright>
     <lastBuildDate>Sun, 02 Aug 2020 08:20:51 +0000</lastBuildDate><atom:link href="https://hamishnorton.github.io/stash/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DevOps</title>
+      <link>https://hamishnorton.github.io/stash/devops/</link>
+      <pubDate>Sun, 11 Oct 2020 15:20:53 +1300</pubDate>
+      
+      <guid>https://hamishnorton.github.io/stash/devops/</guid>
+      <description>The following rough guide to DevOps, and notes I&amp;rsquo;ve made while compemplating how DevOps works, fits in, adds value to a business.
+I&amp;rsquo;ve had the question posed to me often &amp;ldquo;Well, what is DevOps, anyway&amp;rdquo;?
+Before doing much research on the topic, as a developer, I automatically think of automated build and deployment processes.</description>
+    </item>
+    
+    <item>
       <title>Team Member Indicators</title>
       <link>https://hamishnorton.github.io/stash/team-member-indicators/</link>
       <pubDate>Wed, 07 Oct 2020 10:33:37 +1300</pubDate>
