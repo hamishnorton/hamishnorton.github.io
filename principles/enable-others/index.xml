@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enable Others on ProZine</title>
+    <link>https://hamishnorton.github.io/principles/enable-others/</link>
+    <description>Recent content in Enable Others on ProZine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hamish Norton 2020</copyright>
+    <lastBuildDate>Mon, 12 Oct 2020 07:46:41 +1300</lastBuildDate><atom:link href="https://hamishnorton.github.io/principles/enable-others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Others</title>
+      <link>https://hamishnorton.github.io/stash/enable-others/</link>
+      <pubDate>Mon, 12 Oct 2020 07:46:41 +1300</pubDate>
+      
+      <guid>https://hamishnorton.github.io/stash/enable-others/</guid>
+      <description>Enable Others
+ This is an overarching principle, and is applied in several ways.
+It doesn&amp;rsquo;t mean I&amp;rsquo;ll do a job for someone, but instead make what they do easier by enabling them so they don&amp;rsquo;t need you again.</description>
+    </item>
+    
+  </channel>
+</rss>
